@@ -1,6 +1,10 @@
 # dev_DockerRHEL-UBI
 Docker Notes for Using RHEL UBI (Universal Base Images) for RHEL 7 and RHEL 8
 
+#### Docker Search UBI
+```
+$ docker search registry.access.redhat.com/ubi
+```
 
 
 #### Using UBI SCL Container
