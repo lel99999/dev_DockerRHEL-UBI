@@ -14,7 +14,8 @@ $ docker search registry.access.redhat.com/ubi
 #### Basic Example
 ```
 # Set base image
-FROM registry.redhat.io/rhscl/python-38-rhel7
+FROM registry.access.redhat.com/ubi7/ubi:7.9 
+# FROM registry.redhat.io/rhscl/python-38-rhel7
 
 # Add application sources
 ADD --chown=1001:0 app-src .
